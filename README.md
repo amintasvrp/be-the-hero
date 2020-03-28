@@ -1,1 +1,1 @@
-# be-the-hero-core
+# be-the-hero
