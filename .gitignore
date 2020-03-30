@@ -1,2 +1,16 @@
 core/node_modules
+
 gui/node_modules
+
+ngui/node_modules/**/*
+ngui/.expo/*
+ngui/npm-debug.*
+ngui/*.jks
+ngui/*.p8
+ngui/*.p12
+ngui/*.key
+ngui/*.mobileprovision
+ngui/*.orig.*
+ngui/web-build/
+ngui/web-report/
+
