@@ -32,7 +32,7 @@ npm install
 
 ```bash
 # CORE
-npm run dev
+npm start
 npx knex migrate:latest
 
 # GUI and NGUI
