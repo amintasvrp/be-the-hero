@@ -1,13 +1,11 @@
-import 'intl';
-import 'intl/locale-data/jsonp/pt-BR';
+import "intl";
+import "intl/locale-data/jsonp/pt-BR";
 
-import React from 'react';
-import Routes from './src/routes';
+import React from "react";
+import Routes from "./src/routes";
 
 function App() {
-  return (
-    <Routes />
-  );
+  return <Routes />;
 }
 
 export default App;

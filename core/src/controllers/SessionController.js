@@ -1,18 +1,15 @@
-const connection = require('../database/connection');
+const connection = require("../database/connection");
 
 module.exports = {
-    async create(request, response){
-        const { id } = request.body;
+  async create(request, response) {
+    const { id } = request.body;
 
-        const ong = await connection("ongs")
-            .where("id", id)
-            .select("name")
-            .first();
+    const ong = await connection("ongs").where("id", id).select("name").first();
 
-        if(!ong){
-            return response.status(404).send();
-        } else {
-            return response.json(ong);
-        }
+    if (!ong) {
+      return response.status(404).send();
+    } else {
+      return response.json(ong);
     }
-}
+  },
+};
