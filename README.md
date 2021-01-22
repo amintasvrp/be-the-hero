@@ -47,15 +47,15 @@ Be The Hero is an web/mobile application that connects NGOs with people interest
    npx knex migrate:latest
 
    # Start the API
-   $ npm start
+   npm start
 
    # Launch the web application
-   $ cd gui
-   $ npm start
+   cd gui
+   npm start
 
    # Launch the mobile application
-   $ cd ngui
-   $ npm start
+   cd ngui
+   npm start
 ```
 
 ## Running the tests
