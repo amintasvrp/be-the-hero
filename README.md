@@ -1,9 +1,6 @@
-
-<h1 align="center">
-  <img src="./gui/src/assets/logo.svg"></a>
-</h1>
-
 <h4 align="center">
+  <img src="./gui/src/assets/logo.svg"></a>
+  <br></br>
   A platform where NGOs find the heroes they need. 
 </h4>
 
