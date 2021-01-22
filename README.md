@@ -8,9 +8,10 @@
 </h4>
 
 <p align="center">
-  <a><img alt="node" src="https://img.shields.io/badge/node-10.19.0-brightgreen.svg" ></a>
-  <a><img alt="react" src="https://img.shields.io/badge/react-16.13.1-blue.svg" ></a>
-  <a><img alt="react-native" src="https://img.shields.io/badge/react_native-0.62.1-blue.svg" ></a>
+  <img alt="Node.js" src="https://img.shields.io/badge/-Node.js-43853d?style=for-the-badge&logo=Node.js&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=for-the-badge&logo=react&logoColor=white" />
+  <img alt="React Native" src="https://img.shields.io/badge/-React Native-764ABC?style=for-the-badge&logo=react&logoColor=white" />
+  <img alt="Insomnia" src="https://img.shields.io/badge/-Insomnia-5849BE?style=for-the-badge&logo=insomnia&logoColor=white" />
 </p>
 
 ## Getting Started
