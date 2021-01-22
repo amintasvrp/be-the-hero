@@ -14,3 +14,4 @@ ngui/*.orig.*
 ngui/web-build/
 ngui/web-report/
 
+.idea/
