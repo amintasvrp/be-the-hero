@@ -70,6 +70,6 @@ npm run test
 ## Contributing
 Make a pull request and make clear what changes have been made and which bugs persist. Do not introduce bugs, be proactive!
 
-### Licenses
+## Licenses
 * **MIT License** - [*Ver detalhes*](./LICENSE.txt)
 
