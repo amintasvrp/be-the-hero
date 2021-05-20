@@ -70,9 +70,4 @@ npm run test
 ## Contributing
 Make a pull request and make clear what changes have been made and which bugs persist. Do not introduce bugs, be proactive!
 
-## Acknowledgments
-* JavaScript and ECMAScript 6+
-* Knowledge about Node.js, React and React Native
-* Willingness to learn, research and develop (no laziness!)
-
 
