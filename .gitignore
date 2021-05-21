@@ -1,9 +1,12 @@
 core/node_modules
 core/src/database/*.sqlite
+core/package-lock.json
 
 gui/node_modules
+gui/package-lock.json
 
 ngui/node_modules/**/*
+ngui/package-lock.json
 ngui/.expo/*
 ngui/npm-debug.*
 ngui/*.jks
