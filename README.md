@@ -14,6 +14,7 @@
 Be The Hero is an web/mobile application that connects NGOs with people interested in contributing to a noble cause.
 
 ## Demo
+
 <p align="center">
     <img src="./docs/be-the-hero-web.gif" width="78%"/>
     <img src="./docs/be-the-hero-mobile.gif" width="15.6%" />
@@ -25,12 +26,12 @@ Be The Hero is an web/mobile application that connects NGOs with people interest
 
 1. **CORE**: the server;
 2. **GUI**: the web interface;
-2. **NGUI**: the native interfaces for Android and iOS.
+3. **NGUI**: the native interfaces for Android and iOS.
 
 ### **Prerequisites**
 
 - It is **necessary** to have **[Node.js](https://nodejs.org/en/)** installed on the machine;
-- Also, it is **necessary** to have a package manager either **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/ )**;
+- Also, it is **necessary** to have a package manager either **[NPM](https://www.npmjs.com/)** or **[Yarn](https://yarnpkg.com/)**;
 - Finally, it is **essential** to have **[Expo](https://expo.io/)** installed globally on the machine.
 
 1. Make a clone:
@@ -42,34 +43,57 @@ Be The Hero is an web/mobile application that connects NGOs with people interest
 2. Running the Application:
 
 ```sh
-   # Install the dependencies
-   npm install
+  # Install, create the database
+  # and launch the web application
+  cd core
+  npm install
+  npx knex migrate:latest
+  npm start
 
-   ## Create the database
-   cd core
-   npx knex migrate:latest
+  # Start the API
 
-   # Start the API
-   npm start
+  # Install and launch the web application
+  cd gui
+  npm install
+  npm start
 
-   # Launch the web application
-   cd gui
-   npm start
+  # Install and launch the mobile application
+  cd ngui
+  npm install
+  npm start
+```
 
-   # Launch the mobile application
-   cd ngui
-   npm start
+3. (OPTIONAL) Running the Application as Docker containers:
+
+```sh
+  # Build image and run API container
+  cd core
+  docker build -t core .
+  docker run -d -it -p 3333:3333 --name core core
+
+  # Build image and run web application container
+  cd gui
+  docker build -t gui .
+  docker run -d -it -p 3000:3000 --name gui gui
+
+  # and launch the web application
+  cd ngui
+  docker build -t ngui .
+  docker run -d -it -p 3000:3000 --name ngui ngui
 ```
 
 ## Running the tests
+
 We can run the unit and integration tests using the command below:
+
 ```bash
 npm run test
 ```
 
 ## Contributing
+
 Make a pull request and make clear what changes have been made and which bugs persist. Do not introduce bugs, be proactive!
 
 ## Licenses
-* **MIT License** - [*Ver detalhes*](./LICENSE.txt)
 
+- **MIT License** - [_Ver detalhes_](./LICENSE.txt)
