@@ -16,7 +16,7 @@ Be The Hero is an web/mobile application that connects NGOs with people interest
 ## Demo
 
 <p float="center">
-    <img src="./docs/be-the-hero-web.gif" width="570"/>
+    <img src="./docs/be-the-hero-web.gif" width="573"/>
     <img src="./docs/be-the-hero-mobile.gif" width="115" />
 </p>
 
